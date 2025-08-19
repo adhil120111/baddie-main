@@ -190,4 +190,20 @@ All colors MUST be HSL.
       padding: 0 1rem;
     }
   }
+  
+  /* Pressure animation keyframes */
+  @keyframes pressure {
+    0%, 100% { 
+      transform: scale(1);
+      text-shadow: 0 0 10px hsl(0 0% 100% / 0.3);
+    }
+    50% { 
+      transform: scale(1.15);
+      text-shadow: 0 0 20px hsl(0 0% 100% / 0.6), 0 0 40px hsl(0 0% 100% / 0.4);
+    }
+  }
+  
+  .pressure-animation {
+    animation: pressure 2s ease-in-out infinite;
+  }
 }

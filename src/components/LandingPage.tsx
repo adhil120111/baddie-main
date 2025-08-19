@@ -15,7 +15,7 @@ export const LandingPage = ({ onEnter }: LandingPageProps) => {
         {/* Cat image with click to enter text */}
         <div className="mb-8 flex flex-col items-center">
           <img 
-            src="https://tse4.mm.bing.net/th/id/OIP.0MDI4C27d7_8TkC08Su-wgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" 
+            src="https://i.pinimg.com/originals/59/54/b4/5954b408c66525ad932faa693a647e3f.jpg" 
             alt="Cat" 
             className="w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-full mb-4 opacity-80 hover:opacity-100 transition-opacity duration-300"
           />
